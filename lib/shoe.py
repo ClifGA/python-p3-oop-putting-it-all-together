@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 class Shoe:
     def __init__(self, brand, condition = 'Used', size = 0 ):
         self.brand = brand

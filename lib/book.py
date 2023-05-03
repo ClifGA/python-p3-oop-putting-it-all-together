@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-import ipdb
-
 class Book:
     def __init__(self,title, author= None, page_count = 0):
         self.title = title
@@ -19,5 +17,3 @@ class Book:
         print('Flipping the page...wow, you read fast!')
 
     page_count = property(get_page_count, set_page_count)
-
-
